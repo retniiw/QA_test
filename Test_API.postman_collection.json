@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "f40a981e-9067-49a1-86a3-b84b0a7fba2c",
-		"name": "Test API",
+		"name": "Test_API",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -211,7 +211,7 @@
 			"response": []
 		},
 		{
-			"name": "/user_info_2",
+			"name": "user_info_2",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -236,12 +236,11 @@
 					]
 				},
 				"url": {
-					"raw": "{{server}}//user_info_2",
+					"raw": "{{server}}/user_info_2",
 					"host": [
 						"{{server}}"
 					],
 					"path": [
-						"",
 						"user_info_2"
 					]
 				}
