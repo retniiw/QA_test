@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{server}}/get_method?name=Kris&age=24",
+					"raw": "{{server}}/get_method?name={{name}}&age={{age}}",
 					"host": [
 						"{{server}}"
 					],
@@ -21,11 +21,11 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "Kris"
+							"value": "{{name}}"
 						},
 						{
 							"key": "age",
-							"value": "24"
+							"value": "{{age}}"
 						}
 					]
 				}
@@ -271,7 +271,15 @@
 	"variable": [
 		{
 			"key": "server",
-			"value": ""
+			"value": "http://162.55.220.72:5005"
+		},
+		{
+			"key": "name",
+			"value": "Kris"
+		},
+		{
+			"key": "age",
+			"value": "24"
 		}
 	]
 }
